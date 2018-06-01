@@ -10,5 +10,3 @@ resolvers += "bintray-spark-packages" at "https://dl.bintray.com/spark-packages/
 addSbtPlugin("org.spark-packages" % "sbt-spark-package" % "0.2.2")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "0.8.4")
-
-addSbtPlugin("me.lessis" % "bintray-sbt" % "0.3.0")
