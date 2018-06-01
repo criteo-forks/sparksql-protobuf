@@ -13,7 +13,7 @@ enablePlugins(GitVersioning)
 git.baseVersion := "0.1.2"
 
 resolvers ++= Seq(
-  "Twitter Maven" at "http://maven.twttr.com"
+  "Twitter Maven" at "https://maven.twttr.com"
 )
 
 libraryDependencies ++= Seq(
