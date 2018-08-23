@@ -32,7 +32,7 @@ parallelExecution in Test := false
 coverageExcludedPackages := ".*ProtoLIST.*"
 
 spName := "saurfang/sparksql-protobuf"
-sparkVersion := "1.3.0"
+sparkVersion := "2.2.2"
 sparkComponents += "sql"
 credentials ++= {
   val host = publishTo.value match {
